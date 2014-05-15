@@ -1,0 +1,25 @@
+#wrapper{
+	border: 1px solid black;
+	text-align: center;
+}
+
+#firstName{
+	float:center;
+	text-align: right;
+	margin-right: 615px;
+}
+#lastName{
+	float:center;
+	text-align: right;
+	margin-right: 615px;
+}
+#email{
+	float:center;
+	text-align: right;
+	margin-right: 615px;
+}
+#password{
+	float:center;
+	text-align: right;
+	margin-right: 615px;
+}
