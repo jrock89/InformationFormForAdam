@@ -5,20 +5,25 @@
 #firstName{
 	float:center;
 	text-align: right;
-	margin-right: 615px;
+	margin-right: auto;
 }
 #lastName{
 	float:center;
 	text-align: right;
-	margin-right: 615px;
+	margin-right: auto;
 }
 #email{
 	float:center;
 	text-align: right;
-	margin-right: 615px;
+	margin-right: auto;
 }
 #password{
 	float:center;
 	text-align: right;
-	margin-right: 615px;
+	margin: auto;
+}
+#button{
+	float:center;
+	text-align:right;
+	margin:auto;
 }
