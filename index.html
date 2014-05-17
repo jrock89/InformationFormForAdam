@@ -7,10 +7,22 @@
 	</head>
 	<body>
 		<div id="wrapper">
-			<div id="firstName"><p>First Name: <input  onfocus="if (this.value=='First Name') this.value = ''" type="text" value="First Name"></p></div>
-			<div id="lastName"><p>Last Name:  <input onfocus="if (this.value=='Last Name') this.value = ''" type="text" value="Last Name"></p></div>
-			<div id="email"><p>Email:      <input onfocus="if (this.value=='Email') this.value = ''" type="text" value="Email"></p></div>
-			<div id="password"><p>Password: <input onfocus="if (this.value=='Password') this.value = ''" type="text" value="Password"></p></div>
+			<div id="firstName">
+				<label for="firstName">First Name: </label>
+				<input  onfocus="if (this.value=='First Name') this.value = ''" type="text" value="First Name">
+			</div>
+			<div id="lastName">
+				<label for="lastName">Last Name: </label>
+				<input onfocus="if (this.value=='Last Name') this.value = ''" type="text" value="Last Name">
+			</div>
+			<div id="email">
+				<label for="email">Email: </label>
+				<input onfocus="if (this.value=='Email') this.value = ''" type="text" value="Email">
+			</div>
+			<div id="password">
+				<label for="password">Password: </label>
+				<input onfocus="if (this.value=='Password') this.value = ''" type="text" value="Password">
+			</div>
 			<div id="button"><button>Go</button></div>
 		</div>
 	</body>
