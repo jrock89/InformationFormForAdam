@@ -9,21 +9,51 @@
 		<div id="wrapper">
 			<div id="firstName">
 				<label for="firstName">First Name: </label>
-				<input type="text" name="firstName" placeholder="First Name">
+				<input id="inputFirst" type="text" name="firstName" placeholder="First Name">
 			</div>
 			<div id="lastName">
 				<label for="lastName">Last Name: </label>
-				<input type="text" name="lastName" placeholder="Last Name">
+				<input id="inputLast" type="text" name="lastName" placeholder="Last Name">
 			</div>
 			<div id="email">
 				<label for="email">Email: </label>
-				<input type="text" name="email" placeholder="Email">
+				<input id="inputEmail" type="text" name="email" placeholder="Email">
 			</div>
 			<div id="password">
 				<label for="password">Password: </label>
-				<input type="password" name="password" placeholder="password">
+				<input id="inputPassword" type="password" name="password" placeholder="password">
 			</div>
 			<div id="button"><button>Go</button></div>
+
+			<div id="infoList">
+				<h2>Info Gathered</h2>
+				<ul>
+					<li></li>
+				</ul>
+			</div>
+
+			<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+			<script>
+					$(document).ready(function(){
+						
+					$('#button').click(function(){
+						var value = $('#inputFirst').val();
+						$('ul').append('<li>' + value + '</li>');
+						var value = $('#inputLast').val();
+						$('ul').append('<li>' + value + '</li>');
+						
+					 	var value = $('#inputEmail').val();
+						$('ul').append('<li>' + value + '</li>');
+						var value = $('#inputPassword').val();
+						$('ul').append('<li>' + value + '</li>');
+
+					});
+					
+
+				});
+			</script>
+
 		</div>
 	</body>
 </html>
